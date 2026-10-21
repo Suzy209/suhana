@@ -17,7 +17,7 @@ const skills= (skills,Name,LabGrp) =>
 console.log(" Student ID"+ Name+ "Expert in "+ skills)
 console.log("Lab Group Name"+LabGrp)
 }
-skills("Suzzy 3085654","C++", "18")
+skills("java","C++", "18")
 // code for third Exercise
 const student= require('./StudentInfo')
 const person = require('./Person')
@@ -28,6 +28,6 @@ console.log(student.dob)
 // because dob is a variable so we do nt use ()
 console.log(student.Studentgrade())
 console.log("grade is "+student.Studentgrade(55) )
-person1= new person("suzy","UK","suzy20909@gmail.com")
+person1= new person("suzy","20","suzy20909@gmail.com")
 console.log("using Person Module",person1.getPersonInfo())
 console.log("Programe ended")
